@@ -169,9 +169,9 @@
             this.lblLoginTitle.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLoginTitle.Location = new System.Drawing.Point(150, 20);
             this.lblLoginTitle.Name = "lblLoginTitle";
-            this.lblLoginTitle.Size = new System.Drawing.Size(156, 37);
+            this.lblLoginTitle.Size = new System.Drawing.Size(89, 37);
             this.lblLoginTitle.TabIndex = 0;
-            this.lblLoginTitle.Text = "Staff Login";
+            this.lblLoginTitle.Text = "Login";
             this.lblLoginTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // picHotelLogo
