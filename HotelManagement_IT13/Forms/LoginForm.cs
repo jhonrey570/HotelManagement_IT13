@@ -72,5 +72,10 @@ namespace HotelManagement_IT13.Forms
                 btnLogin.PerformClick();
             }
         }
+
+        private void lblHotelName_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

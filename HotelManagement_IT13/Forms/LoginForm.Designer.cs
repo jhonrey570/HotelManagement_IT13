@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.panelMain = new System.Windows.Forms.Panel();
             this.panelLoginContainer = new System.Windows.Forms.Panel();
             this.panelLoginBox = new System.Windows.Forms.Panel();
@@ -178,7 +177,6 @@
             // picHotelLogo
             // 
             this.picHotelLogo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.picHotelLogo.Image = ((System.Drawing.Image)(resources.GetObject("picHotelLogo.Image")));
             this.picHotelLogo.Location = new System.Drawing.Point(150, 150);
             this.picHotelLogo.Name = "picHotelLogo";
             this.picHotelLogo.Size = new System.Drawing.Size(150, 150);
@@ -193,10 +191,11 @@
             this.lblHotelName.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHotelName.Location = new System.Drawing.Point(100, 320);
             this.lblHotelName.Name = "lblHotelName";
-            this.lblHotelName.Size = new System.Drawing.Size(250, 46);
+            this.lblHotelName.Size = new System.Drawing.Size(193, 46);
             this.lblHotelName.TabIndex = 1;
-            this.lblHotelName.Text = "Grand Plaza Hotel";
+            this.lblHotelName.Text = "GMS Hotel";
             this.lblHotelName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblHotelName.Click += new System.EventHandler(this.lblHotelName_Click);
             // 
             // lblSystemTitle
             // 
@@ -205,7 +204,7 @@
             this.lblSystemTitle.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSystemTitle.Location = new System.Drawing.Point(200, 50);
             this.lblSystemTitle.Name = "lblSystemTitle";
-            this.lblSystemTitle.Size = new System.Drawing.Size(500, 54);
+            this.lblSystemTitle.Size = new System.Drawing.Size(537, 54);
             this.lblSystemTitle.TabIndex = 0;
             this.lblSystemTitle.Text = "Hotel Management System";
             this.lblSystemTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -218,7 +217,6 @@
             this.Controls.Add(this.panelMain);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(918, 597);
             this.Name = "LoginForm";
